@@ -2,6 +2,9 @@
 
 A Python utility that fetches historical sample stock market data directly from Kaggle, strips 'Adj Close' column for simplicity, and converts it into compressed Parquet format for optimized query and storage performance.
 
+I made this script to speed up my testing of other projects (eg. backtesting engine, price prediction model) and experimentation. This was a great learning experience and I am very happy with how it turned out.
+I learned a lot about the related file types and conversions with Python, this script will allow me to enhance and work on other of my projects and I hope other beginners will also find it handy.
+
 This project utilizes dataset files from the [Stock Market Dataset](https://www.kaggle.com/datasets/jacksoncrow/stock-market-dataset) on Kaggle.
 
 ## Features
